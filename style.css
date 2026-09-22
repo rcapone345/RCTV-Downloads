@@ -4,3 +4,5 @@
 .vpn-wrap{max-width:360px;margin:25px auto}.price-card .btn{width:100%;margin:12px 0 0}
 @media(max-width:950px){.price-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:550px){.price-grid{grid-template-columns:1fr}}
+
+.troubleshoot{padding-left:24px}.troubleshoot li{margin:13px 0;line-height:1.55}
