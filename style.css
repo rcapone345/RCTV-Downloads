@@ -38,3 +38,41 @@
 .download:nth-child(2) b{color:#ff7373}
 .download:nth-child(3) b{color:#65ed99}
 .download:nth-child(4) b{color:#ffb766}
+
+/* Strong explicit Download Center colors */
+.dl-blue{border:4px solid #168cff!important;box-shadow:0 0 24px #168cff88!important}
+.dl-red{border:4px solid #ff3535!important;box-shadow:0 0 24px #ff353588!important}
+.dl-green{border:4px solid #27df70!important;box-shadow:0 0 24px #27df7088!important}
+.dl-orange{border:4px solid #ff941f!important;box-shadow:0 0 24px #ff941f88!important}
+.dl-blue h2,.dl-blue b{color:#62bdff!important}
+.dl-red h2,.dl-red b{color:#ff7070!important}
+.dl-green h2,.dl-green b{color:#62ef9a!important}
+.dl-orange h2,.dl-orange b{color:#ffb45f!important}
+
+/* Flashy RCTV Home */
+.home-hero{min-height:86vh;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+.home-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,rgba(0,130,255,.18),transparent 45%)}
+.hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(1,4,10,.15),rgba(1,5,12,.35) 55%,#03060b 100%)}
+.hero-content{position:relative;z-index:2;padding:60px 20px;max-width:1000px}
+.eyebrow,.section-kicker{font-size:13px;letter-spacing:5px;font-weight:900;color:#66bdff;margin-bottom:14px}
+.rctv-logo{font-size:96px;line-height:.95;letter-spacing:16px;margin:5px 0 20px;text-shadow:0 0 12px #168cff,0 0 36px rgba(22,140,255,.65),0 0 70px rgba(22,140,255,.35)}
+.hero-content h2{font-size:27px;letter-spacing:5px;margin:10px 0 18px}
+.hero-features{font-size:15px;letter-spacing:2px;color:#d2deec}.hero-features span{color:#168cff;margin:0 8px}
+.hero-actions{margin:28px 0 35px}.glow-blue{box-shadow:0 0 22px rgba(22,143,232,.6);border:1px solid #61baff}
+.ghost-btn{background:rgba(6,15,27,.75);border:1px solid #71849a}
+.explore{display:inline-block;color:#91a6bb;text-decoration:none;font-size:12px;letter-spacing:3px;margin-top:20px}
+.home-section{padding-top:70px;padding-bottom:70px;text-align:center}
+.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:35px}
+.feature-card{position:relative;background:linear-gradient(145deg,rgba(8,17,30,.96),rgba(3,8,15,.96));border:2px solid #315277;border-radius:18px;padding:30px 20px;min-height:210px;overflow:hidden}
+.feature-card:after{content:"";position:absolute;left:15%;right:15%;bottom:0;height:2px;box-shadow:0 0 18px currentColor}
+.feature-card .icon{font-size:31px;margin-bottom:15px}.feature-card h2{font-size:19px;letter-spacing:2px}.feature-card p{color:#aebdce;line-height:1.5}
+.feature-card.blue{color:#53b5ff;border-color:#168cff;box-shadow:0 0 24px rgba(22,140,255,.22)}
+.feature-card.red{color:#ff6565;border-color:#ff3b3b;box-shadow:0 0 24px rgba(255,59,59,.20)}
+.feature-card.green{color:#5bec91;border-color:#2bdd70;box-shadow:0 0 24px rgba(43,221,112,.20)}
+.feature-card.orange{color:#ffb05c;border-color:#ff982c;box-shadow:0 0 24px rgba(255,152,44,.20)}
+.glass-panel,.community-panel{background:linear-gradient(145deg,rgba(8,17,30,.92),rgba(2,7,13,.94));border:1px solid #34516f;border-radius:24px;padding:50px 30px;box-shadow:0 15px 55px rgba(0,0,0,.4)}
+.steps-row{display:flex;justify-content:center;align-items:center;gap:25px;margin:35px auto;flex-wrap:wrap}.steps-row div:not(.arrow){display:flex;flex-direction:column;gap:8px}.steps-row b{font-size:35px;color:#168cff;text-shadow:0 0 15px rgba(22,140,255,.6)}.steps-row span{color:#d6e0eb;font-weight:bold}.arrow{font-size:30px;color:#4c6680}
+.community-panel{border-color:#25d366;box-shadow:0 0 35px rgba(37,211,102,.16)}.community-icon{font-size:42px;color:#58e78b;text-shadow:0 0 20px #25d366}.community-panel p{color:#bdc9d5;font-size:17px}.whatsapp-btn{background:#1fb75a;border:1px solid #6bf09a;box-shadow:0 0 25px rgba(37,211,102,.45)}
+.feature-card,.btn{transition:transform .18s ease,box-shadow .18s ease}.feature-card:hover{transform:translateY(-6px)}.btn:hover{transform:translateY(-2px)}
+@media(max-width:900px){.feature-grid{grid-template-columns:repeat(2,1fr)}.rctv-logo{font-size:72px}}
+@media(max-width:550px){.feature-grid{grid-template-columns:1fr}.rctv-logo{font-size:48px;letter-spacing:9px}.hero-content h2{font-size:19px;letter-spacing:3px}.steps-row .arrow{display:none}}
