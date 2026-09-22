@@ -6,3 +6,35 @@
 @media(max-width:550px){.price-grid{grid-template-columns:1fr}}
 
 .troubleshoot{padding-left:24px}.troubleshoot li{margin:13px 0;line-height:1.55}
+
+/* RCTV Download Center color coding */
+.download{
+  border:3px solid #168cff;
+  border-radius:18px;
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.download:nth-child(1){
+  border-color:#168cff;
+  box-shadow:0 0 18px rgba(22,140,255,.28), inset 0 0 20px rgba(22,140,255,.05);
+}
+.download:nth-child(2){
+  border-color:#ff3b3b;
+  box-shadow:0 0 18px rgba(255,59,59,.28), inset 0 0 20px rgba(255,59,59,.05);
+}
+.download:nth-child(3){
+  border-color:#2bdd70;
+  box-shadow:0 0 18px rgba(43,221,112,.28), inset 0 0 20px rgba(43,221,112,.05);
+}
+.download:nth-child(4){
+  border-color:#ff982c;
+  box-shadow:0 0 18px rgba(255,152,44,.28), inset 0 0 20px rgba(255,152,44,.05);
+}
+.download:hover,.download:focus{
+  transform:scale(1.025);
+  outline:3px solid #fff;
+  outline-offset:4px;
+}
+.download:nth-child(1) b{color:#63b9ff}
+.download:nth-child(2) b{color:#ff7373}
+.download:nth-child(3) b{color:#65ed99}
+.download:nth-child(4) b{color:#ffb766}
