@@ -76,3 +76,9 @@
 .feature-card,.btn{transition:transform .18s ease,box-shadow .18s ease}.feature-card:hover{transform:translateY(-6px)}.btn:hover{transform:translateY(-2px)}
 @media(max-width:900px){.feature-grid{grid-template-columns:repeat(2,1fr)}.rctv-logo{font-size:72px}}
 @media(max-width:550px){.feature-grid{grid-template-columns:1fr}.rctv-logo{font-size:48px;letter-spacing:9px}.hero-content h2{font-size:19px;letter-spacing:3px}.steps-row .arrow{display:none}}
+
+.downloader-code-panel{max-width:760px;margin:25px auto 38px;text-align:center;background:linear-gradient(145deg,rgba(8,18,31,.96),rgba(3,8,15,.96));border:2px solid #168cff;border-radius:20px;padding:28px 24px;box-shadow:0 0 28px rgba(22,140,255,.28)}
+.downloader-label{font-size:12px;letter-spacing:4px;font-weight:900;color:#66bdff}
+.downloader-code-panel h2{margin:10px 0}
+.downloader-code-panel p{color:#c7d3df;line-height:1.55}
+.downloader-code{display:inline-block;margin:8px 0 12px;padding:13px 28px;font-size:42px;font-weight:900;letter-spacing:7px;color:#fff;background:#071321;border:2px solid #66bdff;border-radius:13px;text-shadow:0 0 13px #168cff;box-shadow:0 0 22px rgba(22,140,255,.35)}
