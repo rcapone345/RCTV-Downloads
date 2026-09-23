@@ -88,3 +88,16 @@
 @keyframes rctvNeonPulse{0%,100%{text-shadow:0 0 6px #fff,0 0 14px #62bdff,0 0 28px #168cff,0 0 50px rgba(22,140,255,.55);filter:brightness(1)}50%{text-shadow:0 0 8px #fff,0 0 18px #8fd2ff,0 0 38px #168cff,0 0 70px #168cff,0 0 105px rgba(0,174,255,.72);filter:brightness(1.18)}}
 @keyframes rctvGroundGlow{0%,100%{opacity:.45;transform:scaleX(.82)}50%{opacity:.9;transform:scaleX(1.08)}}
 @media(prefers-reduced-motion:reduce){.rctv-logo,.rctv-logo:after{animation:none}}
+
+/* RCTV custom branding font supplied by site owner */
+@font-face{
+  font-family:'Docktrin';
+  src:url('docktrin.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+.rctv-logo{
+  font-family:'Docktrin',Arial,sans-serif;
+  font-weight:normal;
+}
