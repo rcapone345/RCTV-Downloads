@@ -83,3 +83,8 @@
 .downloader-code-panel p{color:#c7d3df;line-height:1.55}
 .downloader-code{display:inline-block;margin:8px 0 12px;padding:13px 28px;font-size:42px;font-weight:900;letter-spacing:7px;color:#fff;background:#071321;border:2px solid #66bdff;border-radius:13px;text-shadow:0 0 13px #168cff;box-shadow:0 0 22px rgba(22,140,255,.35)}
 .pricing-explainer{max-width:950px;margin:35px auto 55px;text-align:left;background:#07101bf2;border:2px solid #168cff;border-radius:22px;padding:34px;box-shadow:0 0 30px #168cff38}.pricing-explainer p{color:#c4cfdd;line-height:1.7}.pricing-example{margin:16px 0;padding:18px 20px;background:#168cff14;border-left:4px solid #168cff;border-radius:8px;color:#d9e3ee;line-height:1.65}.device-line{text-align:center;margin:20px 0;padding:16px;border:1px solid #315277;border-radius:10px;font-weight:800}.planning-box{margin-top:28px;padding:20px;border:1px solid #ff982c;border-radius:12px;background:#ff982c0f}
+.rctv-logo{position:relative;color:#f4fbff;animation:rctvNeonPulse 3.2s ease-in-out infinite;will-change:text-shadow,filter}
+.rctv-logo:after{content:"";position:absolute;left:12%;right:12%;bottom:-20px;height:18px;border-radius:50%;background:rgba(22,140,255,.28);filter:blur(18px);animation:rctvGroundGlow 3.2s ease-in-out infinite;pointer-events:none}
+@keyframes rctvNeonPulse{0%,100%{text-shadow:0 0 6px #fff,0 0 14px #62bdff,0 0 28px #168cff,0 0 50px rgba(22,140,255,.55);filter:brightness(1)}50%{text-shadow:0 0 8px #fff,0 0 18px #8fd2ff,0 0 38px #168cff,0 0 70px #168cff,0 0 105px rgba(0,174,255,.72);filter:brightness(1.18)}}
+@keyframes rctvGroundGlow{0%,100%{opacity:.45;transform:scaleX(.82)}50%{opacity:.9;transform:scaleX(1.08)}}
+@media(prefers-reduced-motion:reduce){.rctv-logo,.rctv-logo:after{animation:none}}
